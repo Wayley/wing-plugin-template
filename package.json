@@ -1,0 +1,33 @@
+{
+  "name": "wing-plugin-template",
+  "version": "0.0.1",
+  "description": "wing plugin template",
+  "keywords": [
+    "wing",
+    "plugin"
+  ],
+  "main": "dist/wing-plugin-template.es.js",
+  "module": "dist/wing-plugin-template.es.js",
+  "unpkg": "dist/wing-plugin-template.js",
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "devDependencies": {
+    "rollup": "^2.56.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "author": {
+    "name": "Robben Wayley",
+    "email": "hb_wangzheng@163.com"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wayley/wing-plugin-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wayley/wing-plugin-template/issues"
+  },
+  "homepage": "https://github.com/Wayley/wing-plugin-template#readme"
+}
