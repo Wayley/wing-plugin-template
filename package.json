@@ -13,6 +13,7 @@
     "build": "rollup --config"
   },
   "devDependencies": {
+    "@babel/core": "^7.15.5",
     "rollup": "^2.56.3",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-terser": "^7.0.2"

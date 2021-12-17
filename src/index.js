@@ -1,7 +1,7 @@
 // 一个 JavaScript 类
 class MyExamplePlugin {
-  constructor(props) {
-    super(props);
+  constructor(options) {
+    this.options = options;
   }
 }
 exports.MyExamplePlugin = MyExamplePlugin;
